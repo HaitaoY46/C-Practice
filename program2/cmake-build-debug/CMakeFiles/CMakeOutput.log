@@ -1,0 +1,666 @@
+The system is: CYGWIN - 2.11.1(0.329/5/3) - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cygdrive/c/cygwin64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cygdrive/c/cygwin64/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_8afb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8afb7.dir/build.make CMakeFiles/cmTC_8afb7.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8afb7.dir/testCCompiler.c.o
+/cygdrive/c/cygwin64/bin/clang    -o CMakeFiles/cmTC_8afb7.dir/testCCompiler.c.o   -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8afb7.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8afb7.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import  CMakeFiles/cmTC_8afb7.dir/testCCompiler.c.o  -o cmTC_8afb7.exe -Wl,--out-implib,libcmTC_8afb7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_b2c90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2c90.dir/build.make CMakeFiles/cmTC_b2c90.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o
+/cygdrive/c/cygwin64/bin/clang    -o CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/share/cmake-3.12.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b2c90.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b2c90.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import -v CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o  -o cmTC_b2c90.exe -Wl,--out-implib,libcmTC_b2c90.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-windows-cygnus
+Thread model: posix
+InstalledDir: /cygdrive/c/cygwin64/bin
+ "/cygdrive/c/cygwin64/bin/ld" -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPv --wrap _ZdaPv --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvKSt9nothrow_t -Bdynamic --tsaware -o cmTC_b2c90.exe /usr/lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0 -L/usr/x86_64-pc-cygwin/lib -L/usr/lib --enable-auto-import CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_b2c90.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc -lcygwin /usr/lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_b2c90/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b2c90.dir/build.make CMakeFiles/cmTC_b2c90.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cygdrive/c/cygwin64/bin/clang    -o CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/share/cmake-3.12.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b2c90.exe]
+  ignore line: [/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b2c90.dir/link.txt --verbose=1]
+  ignore line: [/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import -v CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o  -o cmTC_b2c90.exe -Wl,--out-implib,libcmTC_b2c90.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 5.0.1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-unknown-windows-cygnus]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /cygdrive/c/cygwin64/bin]
+  link line: [ "/cygdrive/c/cygwin64/bin/ld" -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPv --wrap _ZdaPv --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvKSt9nothrow_t -Bdynamic --tsaware -o cmTC_b2c90.exe /usr/lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0 -L/usr/x86_64-pc-cygwin/lib -L/usr/lib --enable-auto-import CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_b2c90.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc -lcygwin /usr/lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o]
+    arg [/cygdrive/c/cygwin64/bin/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b2c90.exe] ==> ignore
+    arg [/usr/lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0]
+    arg [-L/usr/x86_64-pc-cygwin/lib] ==> dir [/usr/x86_64-pc-cygwin/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [--enable-auto-import] ==> ignore
+    arg [CMakeFiles/cmTC_b2c90.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b2c90.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [/usr/lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0]
+  collapse library dir [/usr/x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc;cygwin]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0;/usr/x86_64-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_50273/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50273.dir/build.make CMakeFiles/cmTC_50273.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50273.dir/feature_tests.c.o
+/cygdrive/c/cygwin64/bin/clang   -std=c11 -o CMakeFiles/cmTC_50273.dir/feature_tests.c.o   -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_50273.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_50273.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import  CMakeFiles/cmTC_50273.dir/feature_tests.c.o  -o cmTC_50273.exe -Wl,--out-implib,libcmTC_50273.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_421b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_421b3.dir/build.make CMakeFiles/cmTC_421b3.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_421b3.dir/feature_tests.c.o
+/cygdrive/c/cygwin64/bin/clang   -std=c99 -o CMakeFiles/cmTC_421b3.dir/feature_tests.c.o   -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_421b3.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_421b3.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import  CMakeFiles/cmTC_421b3.dir/feature_tests.c.o  -o cmTC_421b3.exe -Wl,--out-implib,libcmTC_421b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_397ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_397ca.dir/build.make CMakeFiles/cmTC_397ca.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_397ca.dir/feature_tests.c.o
+/cygdrive/c/cygwin64/bin/clang   -std=c90 -o CMakeFiles/cmTC_397ca.dir/feature_tests.c.o   -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_397ca.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_397ca.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang    -Wl,--enable-auto-import  CMakeFiles/cmTC_397ca.dir/feature_tests.c.o  -o cmTC_397ca.exe -Wl,--out-implib,libcmTC_397ca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_015d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_015d5.dir/build.make CMakeFiles/cmTC_015d5.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_015d5.dir/testCXXCompiler.cxx.o
+/cygdrive/c/cygwin64/bin/clang++     -o CMakeFiles/cmTC_015d5.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_015d5.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_015d5.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_015d5.dir/testCXXCompiler.cxx.o  -o cmTC_015d5.exe -Wl,--out-implib,libcmTC_015d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_75b68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75b68.dir/build.make CMakeFiles/cmTC_75b68.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o
+/cygdrive/c/cygwin64/bin/clang++     -o CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/share/cmake-3.12.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_75b68.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_75b68.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import -v CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_75b68.exe -Wl,--out-implib,libcmTC_75b68.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-windows-cygnus
+Thread model: posix
+InstalledDir: /cygdrive/c/cygwin64/bin
+ "/cygdrive/c/cygwin64/bin/ld" -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPv --wrap _ZdaPv --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvKSt9nothrow_t -Bdynamic --tsaware -o cmTC_75b68.exe /usr/lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0 -L/usr/x86_64-pc-cygwin/lib -L/usr/lib --enable-auto-import CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_75b68.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -liconv -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc -lcygwin /usr/lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_75b68/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_75b68.dir/build.make CMakeFiles/cmTC_75b68.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cygdrive/c/cygwin64/bin/clang++     -o CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/share/cmake-3.12.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_75b68.exe]
+  ignore line: [/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_75b68.dir/link.txt --verbose=1]
+  ignore line: [/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import -v CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_75b68.exe -Wl,--out-implib,libcmTC_75b68.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 5.0.1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-unknown-windows-cygnus]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /cygdrive/c/cygwin64/bin]
+  link line: [ "/cygdrive/c/cygwin64/bin/ld" -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPv --wrap _ZdaPv --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvKSt9nothrow_t -Bdynamic --tsaware -o cmTC_75b68.exe /usr/lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0 -L/usr/x86_64-pc-cygwin/lib -L/usr/lib --enable-auto-import CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_75b68.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -liconv -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc -lcygwin /usr/lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o]
+    arg [/cygdrive/c/cygwin64/bin/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_75b68.exe] ==> ignore
+    arg [/usr/lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/7.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0]
+    arg [-L/usr/x86_64-pc-cygwin/lib] ==> dir [/usr/x86_64-pc-cygwin/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [--enable-auto-import] ==> ignore
+    arg [CMakeFiles/cmTC_75b68.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_75b68.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [/usr/lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0]
+  collapse library dir [/usr/x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;iconv;gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc;cygwin]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/7.3.0;/usr/x86_64-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_483dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_483dd.dir/build.make CMakeFiles/cmTC_483dd.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_483dd.dir/feature_tests.cxx.o
+/cygdrive/c/cygwin64/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_483dd.dir/feature_tests.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_483dd.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_483dd.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_483dd.dir/feature_tests.cxx.o  -o cmTC_483dd.exe -Wl,--out-implib,libcmTC_483dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_67586/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67586.dir/build.make CMakeFiles/cmTC_67586.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67586.dir/feature_tests.cxx.o
+/cygdrive/c/cygwin64/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_67586.dir/feature_tests.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_67586.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_67586.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_67586.dir/feature_tests.cxx.o  -o cmTC_67586.exe -Wl,--out-implib,libcmTC_67586.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_9bdc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bdc7.dir/build.make CMakeFiles/cmTC_9bdc7.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bdc7.dir/feature_tests.cxx.o
+/cygdrive/c/cygwin64/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_9bdc7.dir/feature_tests.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9bdc7.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_9bdc7.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_9bdc7.dir/feature_tests.cxx.o  -o cmTC_9bdc7.exe -Wl,--out-implib,libcmTC_9bdc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_12da8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12da8.dir/build.make CMakeFiles/cmTC_12da8.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12da8.dir/feature_tests.cxx.o
+/cygdrive/c/cygwin64/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_12da8.dir/feature_tests.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12da8.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_12da8.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_12da8.dir/feature_tests.cxx.o  -o cmTC_12da8.exe -Wl,--out-implib,libcmTC_12da8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_2f513/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f513.dir/build.make CMakeFiles/cmTC_2f513.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f513.dir/feature_tests.cxx.o
+/cygdrive/c/cygwin64/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_2f513.dir/feature_tests.cxx.o -c /cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2f513.exe
+/cygdrive/c/Users/31409/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_2f513.dir/link.txt --verbose=1
+/cygdrive/c/cygwin64/bin/clang++    -Wl,--enable-auto-import  CMakeFiles/cmTC_2f513.dir/feature_tests.cxx.o  -o cmTC_2f513.exe -Wl,--out-implib,libcmTC_2f513.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/31409/CLionProjects/program2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
